@@ -1,0 +1,1150 @@
+body{
+    font-family: "华文楷体";
+}
+@media screen and (min-width: 1200px) {
+
+    .head {
+        min-height: 300px;
+        background: url("../img/banner.jpg") no-repeat center;
+    }
+
+    .header-left {
+        float: left;
+    }
+
+    .header-left a {
+        padding: 2em 1em 1em;
+        background: #c6c5c0;
+        color: #fff;
+        font-size: 2em;
+        font-family: 'Josefin Sans', sans-serif;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .header-left a i {
+        font-size: 1em;
+        color: #fff;
+        left: -10px;
+        top: 5px;
+    }
+
+    .header-left1 {
+        float: left;
+        margin-left: 5em;
+    }
+
+    .header-left1 .menu {
+        display: none;
+    }
+
+    .header-left1 ul li a i {
+        font-size: 1em;
+        color: #fff;
+        display: block;
+        text-align: center;
+        margin: 0.5em 0 0;
+    }
+
+    .header-left1 ul li.active a {
+        background: #6ea145;
+        color: #fff;
+    }
+
+    .nav1 li {
+        float: left;
+        position: relative;
+        margin-left: 10px;
+    }
+
+    .nav1 li > i {
+        width: 100%;
+        height: 0;
+        background: #6ea145;
+        position: absolute;
+        top: 0;
+    }
+
+    .nav1 li:hover i {
+        height: 100%;
+        transition: .5s all;
+    }
+
+    .nav1 li a {
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 45px 30px;
+        display: block
+    }
+
+    .nav1 li span {
+        color: #fff;
+        position: relative;
+        z-index: 2;
+    }
+
+    .header-right {
+        float: right;
+    }
+
+    .header-right ul {
+        padding: 4em 0 0;
+    }
+
+    .header-right li {
+        float: left;
+    }
+
+    .header-right li .facebook {
+        background: url("../img/img-sp.png") no-repeat -5px -13px;
+        display: block;
+        height: 32px;
+        width: 32px;
+    }
+
+    .header-right li .facebook:hover {
+        display: block;
+        background: url("../img/img-sp.png") no-repeat -5px -59px;
+    }
+
+    .header-right li .g {
+        background: url("../img/img-sp.png") no-repeat -48px -13px;
+        display: block;
+        height: 32px;
+        width: 32px;
+    }
+
+    .header-right li .g:hover {
+        display: block;
+        background: url("../img/img-sp.png") no-repeat -48px -58px;
+    }
+
+    .header-right li .v {
+        background: url("../img/img-sp.png") no-repeat -86px -13px;
+        display: block;
+        height: 32px;
+        width: 32px;
+    }
+
+    .header-right li .v:hover {
+        display: block;
+        background: url("../img/img-sp.png") no-repeat -86px -58px;
+    }
+
+    /* 中间内容块==================== */
+    .center {
+        padding: 5em 0;
+    }
+
+    .center .col-lg-7 h3 {
+        color: #6ea145;
+        font-size: 2em;
+        margin: 0;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .center .col-lg-7 .seven-all {
+        padding: 2em 0;
+    }
+
+    .center .col-lg-7 .seven-all h4 {
+        text-transform: capitalize;
+        margin: 0;
+        color: #c6c5c0;
+        font-size: 2em;
+        text-decoration: none;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .center .col-lg-7 .seven-all p {
+        font-size: 14px;
+        color: #999;
+        margin: .5em 0 1em;
+        line-height: 1.8em;
+    }
+
+    .center .col-lg-7 .seven-all a img {
+        padding: .5em;
+        border: 1px solid #F2F2F2;
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .center .col-lg-7 .seven-all ul {
+        padding: 2em 0 4em;
+    }
+
+    .center .col-lg-7 .seven-all ul li {
+        display: inline-block;
+        margin: 0 3em 0 0;
+    }
+
+    .center .col-lg-7 .seven-all ul li a {
+        font-size: 1em;
+        color: #c6c5c0;
+        text-decoration: none;
+        padding-left: 1em;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .center .col-lg-7 .seven-all ul li a i {
+        left: -17px;
+    }
+
+    .center .col-lg-5 h3 {
+        color: #6ea145;
+        font-size: 2em;
+        margin: 0;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .center .col-lg-5 .input-group input {
+        width: 170%;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .center .col-lg-5 .input-group:nth-of-type(1) {
+        margin-top: 30px
+    }
+
+    .center .col-lg-5 .checkbox {
+        font-size: 15px;
+        color: #c6c5c0;
+        font-weight: 500;
+        position: relative;
+    }
+
+    .center .col-lg-5 .checkbox input {
+        width: 20px;
+        height: 20px;
+    }
+
+    .center .col-lg-5 .checkbox button {
+        position: absolute;
+        bottom: 0;
+        right: 32px;
+        background: #6ea145;
+        color: white;
+        transition: 0.5s all;
+
+    }
+
+    .center .col-lg-5 .checkbox button:hover {
+        background-color: #ccc;
+    }
+
+    .h4 {
+        margin: 40px auto;
+    }
+
+    .h4 {
+        color: #6ea145;
+        font-size: 2em;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .five-all {
+        margin: 0em 0 4em;
+        min-height: 175px;
+    }
+
+    .five-all img {
+        float: left;
+        width: 35%;
+    }
+
+    .five-all .five-text {
+        float: right;
+        width: 60%;
+    }
+
+    .five-all .five-text label {
+        font-size: 14px;
+        font-weight: 500;
+        color: #989595;
+    }
+
+    .five-all .five-text h5 {
+        font-size: 14px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin: .5em 0;
+        color: #6ea145;
+    }
+
+    .five-all .five-text p {
+        color: #999;
+        margin: 0 0 1em 0;
+        font-size: 14px;
+        line-height: 1.8em;
+    }
+
+    .five-all .five-text a {
+
+        color: #fff;
+        background-color: #6ea145;
+        border: none !important;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .five-all .five-text a:hover{
+        background-color: #ccc;
+    }
+    .renwu{
+        margin: 2em 0 0;
+    }
+    .renwu .m-top{
+    float: left;
+    width: 25%;
+    margin-right: 1em;
+    }
+    .renwu .m-top img{
+        width: 100%;
+    }
+    .renwu .m-m{
+        float: right;
+        width: 71%;
+        min-height: 115px
+    }
+    .renwu .m-m p{
+        margin: 1em 0 0;
+    font-size: 14px;
+    color: #555555;
+    }
+    .renwu .m-m p:last-child{
+        color: #6ea145;
+        font-size: 18px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .pq{
+        margin: 1em 0 0 0;
+        font-size: 14px;
+        line-height: 1.8em;
+        color: #999;
+    }
+    .footer1{
+        width: 100%;
+        height: 13em;
+        background-color: #6b6a6f;
+    }
+    .foot1-left{
+        float: left;
+        margin-top: 3em;
+    }
+    .foot1-left h2{
+        color: rgb(110, 161, 69);
+    }
+    .foot1-left span{
+        color: rgb(147,147,147);
+    }
+    .foot1-right{
+        margin-top: 5em;
+    }
+    .foot1-right input{
+        width: 70%;
+        height: 3.5em;
+    }
+    .foot1-right button{
+        width: 15%;
+        height: 3.5em;
+        display: inline-block;
+        background-color: rgb(110, 161, 69);
+        border: none;
+        color: #FFFFFF;
+    }
+    .footer2{
+        width: 100%;
+        height: 21em;
+        background-color: rgb(36,36,36);
+    }
+
+    .foot2 {
+        float: left;
+        margin-top: 3em;
+    }
+    .foot2 ul{
+        float: left;
+    }
+    .foot2 ul .big{
+        color: #FFFFFF;
+        font-size: 2em;
+    }
+    .foot2 ul li{
+        color:rgb(107,107,107) ;
+        font-size: 1em;
+        line-height: 2em;
+        cursor: pointer;
+    }
+    .foot2 ul li:hover{
+        color: #FFFFFF;
+    }
+
+
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    /*第一快头部-------------------------*/
+    .head {
+        min-height: 300px;
+        background: url("../img/banner.jpg") no-repeat center;
+    }
+
+    .header-left {
+        float: left;
+    }
+
+    .header-left a {
+        padding: 2em 1em 1em;
+        background: #c6c5c0;
+        color: #fff;
+        font-size: 2em;
+        font-family: 'Josefin Sans', sans-serif;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .header-left a i {
+        font-size: 1em;
+        color: #fff;
+        left: -10px;
+        top: 5px;
+    }
+
+    .header-left1 {
+        float: left;
+        margin-left: 5em;
+    }
+
+    .header-left1 .menu {
+        display: none;
+    }
+
+    .header-left1 ul li a i {
+        font-size: 1em;
+        color: #fff;
+        display: block;
+        text-align: center;
+        margin: 0.5em 0 0;
+    }
+
+    .header-left1 ul li.active a {
+        background: #6ea145;
+        color: #fff;
+    }
+
+    .nav1 li {
+        float: left;
+        position: relative;
+        margin-left: 10px;
+    }
+
+    .nav1 li > i {
+        width: 100%;
+        height: 0;
+        background: #6ea145;
+        position: absolute;
+        top: 0;
+    }
+
+    .nav1 li:hover i {
+        height: 100%;
+        transition: .5s all;
+    }
+
+    .nav1 li a {
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 45px 30px;
+        display: block
+    }
+
+    .nav1 li span {
+        color: #fff;
+        position: relative;
+        z-index: 2;
+    }
+
+    .header-right {
+        float: right;
+    }
+
+    .header-right ul {
+        padding: 4em 0 0;
+    }
+
+    .header-right li {
+        float: left;
+    }
+
+    .header-right li .facebook {
+        background: url("../img/img-sp.png") no-repeat -5px -13px;
+        display: block;
+        height: 32px;
+        width: 32px;
+    }
+
+    .header-right li .facebook:hover {
+        display: block;
+        background: url("../img/img-sp.png") no-repeat -5px -59px;
+    }
+
+    .header-right li .g {
+        background: url("../img/img-sp.png") no-repeat -48px -13px;
+        display: block;
+        height: 32px;
+        width: 32px;
+    }
+
+    .header-right li .g:hover {
+        display: block;
+        background: url("../img/img-sp.png") no-repeat -48px -58px;
+    }
+
+    .header-right li .v {
+        background: url("../img/img-sp.png") no-repeat -86px -13px;
+        display: block;
+        height: 32px;
+        width: 32px;
+    }
+
+    .header-right li .v:hover {
+        display: block;
+        background: url("../img/img-sp.png") no-repeat -86px -58px;
+    }/* 中间内容块==================== */
+      .center {
+        padding: 5em 0;
+    }
+
+    .center .col-lg-7 h3 {
+        color: #6ea145;
+        font-size: 2em;
+        margin: 0;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .center .col-lg-7 .seven-all {
+        padding: 2em 0;
+    }
+
+    .center .col-lg-7 .seven-all h4 {
+        text-transform: capitalize;
+        margin: 0;
+        color: #c6c5c0;
+        font-size: 2em;
+        text-decoration: none;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .center .col-lg-7 .seven-all p {
+        font-size: 14px;
+        color: #999;
+        margin: .5em 0 1em;
+        line-height: 1.8em;
+    }
+
+    .center .col-lg-7 .seven-all a img {
+        padding: .5em;
+        border: 1px solid #F2F2F2;
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .center .col-lg-7 .seven-all ul {
+        padding: 2em 0 4em;
+    }
+
+    .center .col-lg-7 .seven-all ul li {
+        display: inline-block;
+        margin: 0 3em 0 0;
+    }
+
+    .center .col-lg-7 .seven-all ul li a {
+        font-size: 1em;
+        color: #c6c5c0;
+        text-decoration: none;
+        padding-left: 1em;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .center .col-lg-7 .seven-all ul li a i {
+        left: -17px;
+    }
+
+    .center .col-lg-5 h3 {
+        color: #6ea145;
+        font-size: 2em;
+        margin: 0;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .center .col-lg-5 .input-group input {
+        width: 170%;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .center .col-lg-5 .input-group:nth-of-type(1) {
+        margin-top: 30px
+    }
+
+    .center .col-lg-5 .checkbox {
+        font-size: 15px;
+        color: #c6c5c0;
+        font-weight: 500;
+        position: relative;
+    }
+
+    .center .col-lg-5 .checkbox input {
+        width: 20px;
+        height: 20px;
+    }
+
+    .center .col-lg-5 .checkbox button {
+        position: absolute;
+        bottom: 0;
+        right: 32px;
+        background: #6ea145;
+        color: white;
+        transition: 0.5s all;
+
+    }
+
+    .center .col-lg-5 .checkbox button:hover {
+        background-color: #ccc;
+    }
+
+    .h4 {
+        margin: 40px auto;
+    }
+
+    .h4 {
+        color: #6ea145;
+        font-size: 2em;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .five-all {
+        margin: 0em 0 20em;
+        min-height: 175px;
+    }
+
+    .five-all img {
+        float: left;
+        width: 35%;
+    }
+
+    .five-all .five-text {
+        float: right;
+        width: 60%;
+    }
+
+    .five-all .five-text label {
+        font-size: 14px;
+        font-weight: 500;
+        color: #989595;
+    }
+
+    .five-all .five-text h5 {
+        font-size: 14px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin: 2em 0;
+        color: #6ea145;
+    }
+
+    .five-all .five-text p {
+        color: #999;
+        margin: 0 0 1em 0;
+        font-size: 14px;
+        line-height: 1.8em;
+    }
+
+    .five-all .five-text a {
+
+        color: #fff;
+        background-color: #6ea145;
+        border: none !important;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .five-all .five-text a:hover{
+        background-color: #ccc;
+    }
+   
+    .renwu{
+        margin: 2em 0 6em;
+    }
+    .renwu .m-top{
+    float: left;
+    width: 25%;
+    margin-right: 1em;
+    }
+    .renwu .m-top img{
+        width: 100%;
+    }
+    .renwu .m-m{
+        float: right;
+        width: 71%;
+        min-height: 115px
+    }
+    .renwu .m-m p{
+        margin: 1em 0 0;
+    font-size: 14px;
+    color: #555555;
+    }
+    .renwu .m-m p:last-child{
+        color: #6ea145;
+        font-size: 18px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .pq{
+        margin: 1em 0 0 0;
+        font-size: 14px;
+        line-height: 1.8em;
+        color: #999;
+    }
+    .footer1{
+        width: 100%;
+        height: 13em;
+        background-color: #6b6a6f;
+    }
+    .foot1-left{
+        float: left;
+        margin-top: 3em;
+    }
+    .foot1-left h2{
+        color: rgb(110, 161, 69);
+    }
+    .foot1-left span{
+        color: rgb(147,147,147);
+    }
+    .foot1-right{
+        margin-top: 5em;
+    }
+    .foot1-right input{
+        width: 70%;
+        height: 3.5em;
+    }
+    .foot1-right button{
+        width: 15%;
+        height: 3.5em;
+        display: inline-block;
+        background-color: rgb(110, 161, 69);
+        border: none;
+        color: #FFFFFF;
+    }
+    .footer2{
+        width: 100%;
+        height: 21em;
+        background-color: rgb(36,36,36);
+    }
+
+    .foot2 {
+        float: left;
+        margin-top: 3em;
+    }
+    .foot2 ul{
+        float: left;
+    }
+    .foot2 ul .big{
+        color: #FFFFFF;
+        font-size: 2em;
+    }
+    .foot2 ul li{
+        color:rgb(107,107,107) ;
+        font-size: 1em;
+        line-height: 2em;
+        cursor: pointer;
+    }
+    .foot2 ul li:hover{
+        color: #FFFFFF;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    /*第一快头部-------------------------*/
+    .head {
+        min-height: 300px;
+        background: url("../img/banner.jpg") no-repeat center;
+    }
+
+    .header-left {
+        float: left;
+    }
+
+    .header-left a {
+        padding: 2em 1em 1em;
+        background: #c6c5c0;
+        color: #fff;
+        font-size: 2em;
+        font-family: 'Josefin Sans', sans-serif;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .header-left a i {
+        font-size: 1em;
+        color: #fff;
+        left: -10px;
+        top: 5px;
+    }
+
+    .header-left1 {
+        float: left;
+        margin-left: 5em;
+    }
+
+    .header-left1 .menu {
+        display: none;
+    }
+
+    .header-left1 ul li a i {
+        font-size: 1em;
+        color: #fff;
+        display: block;
+        text-align: center;
+        margin: 0.5em 0 0;
+    }
+
+    .header-left1 ul li.active a {
+        background: #6ea145;
+        color: #fff;
+    }
+
+    .nav1 li {
+        float: left;
+        position: relative;
+        margin-left: 10px;
+    }
+
+    .nav1 li > i {
+        width: 100%;
+        height: 0;
+        background: #6ea145;
+        position: absolute;
+        top: 0;
+    }
+
+    .nav1 li:hover i {
+        height: 100%;
+        transition: .5s all;
+    }
+
+    .nav1 li a {
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Josefin Sans', sans-serif;
+        padding: 45px 30px;
+        display: block
+    }
+
+    .nav1 li span {
+        color: #fff;
+        position: relative;
+        z-index: 2;
+    }
+
+    .header-right {
+        float: right;
+    }
+
+    .header-right ul {
+        padding: 4em 0 0;
+    }
+
+    .header-right li {
+        float: left;
+    }
+
+    .header-right li .facebook {
+        background: url("../img/img-sp.png") no-repeat -5px -13px;
+        display: block;
+        height: 32px;
+        width: 32px;
+    }
+
+    .header-right li .facebook:hover {
+        display: block;
+        background: url("../img/img-sp.png") no-repeat -5px -59px;
+    }
+
+    .header-right li .g {
+        background: url("../img/img-sp.png") no-repeat -48px -13px;
+        display: block;
+        height: 32px;
+        width: 32px;
+    }
+
+    .header-right li .g:hover {
+        display: block;
+        background: url("../img/img-sp.png") no-repeat -48px -58px;
+    }
+
+    .header-right li .v {
+        background: url("../img/img-sp.png") no-repeat -86px -13px;
+        display: block;
+        height: 32px;
+        width: 32px;
+    }
+
+    .header-right li .v:hover {
+        display: block;
+        background: url("../img/img-sp.png") no-repeat -86px -58px;
+    }
+      /* 中间内容块==================== */
+      .center {
+        padding: 5em 0;
+    }
+
+    .center .col-lg-7 h3 {
+        color: #6ea145;
+        font-size: 2em;
+        margin: 0;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .center .col-lg-7 .seven-all {
+        padding: 2em 0;
+    }
+
+    .center .col-lg-7 .seven-all h4 {
+        text-transform: capitalize;
+        margin: 0;
+        color: #c6c5c0;
+        font-size: 2em;
+        text-decoration: none;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .center .col-lg-7 .seven-all p {
+        font-size: 14px;
+        color: #999;
+        margin: .5em 0 1em;
+        line-height: 1.8em;
+    }
+
+    .center .col-lg-7 .seven-all a img {
+        padding: .5em;
+        border: 1px solid #F2F2F2;
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .center .col-lg-7 .seven-all ul {
+        padding: 2em 0 4em;
+    }
+
+    .center .col-lg-7 .seven-all ul li {
+        display: inline-block;
+        margin: 0 3em 0 0;
+    }
+
+    .center .col-lg-7 .seven-all ul li a {
+        font-size: 1em;
+        color: #c6c5c0;
+        text-decoration: none;
+        padding-left: 1em;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .center .col-lg-7 .seven-all ul li a i {
+        left: -17px;
+    }
+
+    .center .col-lg-5 h3 {
+        color: #6ea145;
+        font-size: 2em;
+        margin: 0;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .center .col-lg-5 .input-group input {
+        width: 150%;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .center .col-lg-5 .input-group:nth-of-type(1) {
+        margin-top: 30px
+    }
+
+    .center .col-lg-5 .checkbox {
+        font-size: 15px;
+        color: #c6c5c0;
+        font-weight: 500;
+        position: relative;
+    }
+
+    .center .col-lg-5 .checkbox input {
+        width: 20px;
+        height: 20px;
+    }
+
+    .center .col-lg-5 .checkbox button {
+        position: absolute;
+        bottom: 0;
+        right: 32px;
+        background: #6ea145;
+        color: white;
+        transition: 0.5s all;
+
+    }
+
+    .center .col-lg-5 .checkbox button:hover {
+        background-color: #ccc;
+    }
+
+    .h4 {
+        margin: 40px auto;
+    }
+
+    .h4 {
+        color: #6ea145;
+        font-size: 2em;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .five-all {
+        margin: 0em 0 10em;
+        min-height: 175px;
+    }
+
+    .five-all img {
+        float: left;
+        width: 35%;
+    }
+
+    .five-all .five-text {
+        float: right;
+        width: 60%;
+    }
+
+    .five-all .five-text label {
+        font-size: 14px;
+        font-weight: 500;
+        color: #989595;
+    }
+
+    .five-all .five-text h5 {
+        font-size: 14px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin: .5em 0;
+        color: #6ea145;
+    }
+
+    .five-all .five-text p {
+        color: #999;
+        margin: 0 0 1em 0;
+        font-size: 14px;
+        line-height: 1.8em;
+    }
+
+    .five-all .five-text a {
+
+        color: #fff;
+        background-color: #6ea145;
+        border: none !important;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .five-all .five-text a:hover{
+        background-color: #ccc;
+    }
+    .renwu{
+        margin: 2em 0 0;
+    }
+    .renwu .m-top{
+    float: left;
+    width: 25%;
+    margin-right: 1em;
+    }
+    .renwu .m-top img{
+        width: 100%;
+    }
+    .renwu .m-m{
+        float: right;
+        width: 71%;
+        min-height: 115px
+    }
+    .renwu .m-m p{
+        margin: 1em 0 0;
+    font-size: 14px;
+    color: #555555;
+    }
+    .renwu .m-m p:last-child{
+        color: #6ea145;
+        font-size: 18px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .pq{
+        margin: 1em 0 0 0;
+        font-size: 14px;
+        line-height: 1.8em;
+        color: #999;
+    }
+    .footer1{
+        width: 100%;
+        height: 13em;
+        background-color: #6b6a6f;
+    }
+    .foot1-left{
+        float: left;
+        margin-top: 3em;
+    }
+    .foot1-left h2{
+        color: rgb(110, 161, 69);
+    }
+    .foot1-left span{
+        color: rgb(147,147,147);
+    }
+    .foot1-right{
+        margin-top: 5em;
+    }
+    .foot1-right input{
+        width: 70%;
+        height: 3.5em;
+    }
+    .foot1-right button{
+        width: 15%;
+        height: 3.5em;
+        display: inline-block;
+        background-color: rgb(110, 161, 69);
+        border: none;
+        color: #FFFFFF;
+    }
+    .footer2{
+        width: 100%;
+        height: 21em;
+        background-color: rgb(36,36,36);
+    }
+
+    .foot2 {
+        float: left;
+        margin-top: 3em;
+    }
+    .foot2 ul{
+        float: left;
+    }
+    .foot2 ul .big{
+        color: #FFFFFF;
+        font-size: 2em;
+    }
+    .foot2 ul li{
+        color:rgb(107,107,107) ;
+        font-size: 1em;
+        line-height: 2em;
+        cursor: pointer;
+    }
+    .foot2 ul li:hover{
+        color: #FFFFFF;
+    }
+
+}
